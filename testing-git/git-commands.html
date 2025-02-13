@@ -13,7 +13,7 @@ git commit -m "message in present tense"
 git remote add origin https://github.com/html5/git-commands/
 
 git commit -m "testing git commands"
-git push origin master - "the first time you commit
+git push origin master - "the first time you commit  ( to remote repository )"
 git push - "the subsequent times you commit"
 walla
 
@@ -73,3 +73,16 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 
 
 git branch -D feature
+
+########### Merging and rebasing branches  ####################  avoid use "git merge"
+
+    ############ show commands ############
+    git remote -v
+    git remote add origin https://github.com/html5/git-commands ( where origin can change its name )
+########### setting up a remote repository from local machine's command line
+    git config --global Cearle-hub38 "Cormel Earle*
+    git config --global user.email "email@example.com"
+
+    git push -u origin master  ( -u keeps track of the origin/naster relationship )
+    git push ( -u not needed subsequent pushes )
+    git pull origin master  (pull from remote repository to local repository on local machine )
