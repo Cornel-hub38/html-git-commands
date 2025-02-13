@@ -13,7 +13,16 @@ git push - "the subsequent times you commit"
 walla
 
 git branch
-get branch -b feature (create a branch called feature )
+git branch -b feature (create a branch called feature )
+git checkout master
+git checkout feature
+ ## go back unto master branch before commiting changes that are on features to master ####
+git checkout master
+now, type:
+git merge feature master ( Remember you are currently on master branch)
+ ## ( so merge is feature to naster branch, while sat on the master branch)
+
+
 
 
 git branch -D feature
