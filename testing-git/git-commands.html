@@ -76,13 +76,12 @@ git branch -D feature ( delete a branch)
 
 ########### Merging and rebasing branches  ####################  avoid use "git merge"
 
-    ############ show commands ############
-    git remote -v
+    ############ show commands ###########   git remote -v
     git remote add origin https://github.com/html5/git-commands ( where origin can change its name )
 ########### setting up a remote repository from local machine's command line
     git config --global Cearle-hub38 "Cormel Earle*
     git config --global user.email "email@example.com"
 
     git push -u origin master  ( -u keeps track of the origin/naster relationship )
-    git push ( -u not needed subsequent pushes )
+    git push ( -u not needed subsequent pushes ) -u === save these settings & origin/master relationship
     git pull origin master  (pull from remote repository to local repository on local machine )
